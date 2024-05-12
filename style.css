@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=agbalumo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search {
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+  background: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  transition: .4s;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Agbalumo', system-ui;
+}
+
+.icons img {
+  margin-left: 10px;
+}
+
+.search input {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: none;
+}
+
+.search button {
+  padding: 8px;
+  background: #4CAF50;
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
